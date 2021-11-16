@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Playfair Display SC', serif;
+	font-family: 'Yellowtail', cursive;
+	font-family: 'Tenor Sans', sans-serif;
+
+}
+
+#banner{
+	background: radial-gradient(rgba(255,215,0,0.35),rgba(0,0,0,0.75)),url(Background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh; 
+}
+
+.logo{
+	width: 225px;
+	position: absolute;
+	top: 4.5%;
+	left: 2%;
+}
+
+.banner-text{
+	text-align: center;
+	color: #fff;
+	padding-top: 250px;
+
+}
+
+.banner-text h1{
+	font-size: 100px;
+	font-family: 'Playfair Display SC', serif;
+}
+
+.banner-text p{
+	font-size: 40px;
+	font-style: italic;
+	font-family: 'Great Vibes', cursive;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	left: 415;
+	bottom: 192;
+
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.menu ul li::after{
+	content: '';
+	height: 2px;
+	width: 0%;
+	background: white;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	transition: 0.5s;
+}
+
+.menu ul li:hover:after{
+	width: 100%;
+}
+
+.social-media{
+	display: flex;
+}
+
+.social-media a{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 0 0 20px 10px rgba(0,0,0,0.15);
+	margin-bottom: 0 30px;
+	margin: 30px;
+	border-radius: 40%;
+	position: relative;
+	top: 120;
+	left: 400;
+	overflow: hidden;
+	transition: transform 0.5s;
+
+}
+.social-media a .fab{
+	font-size: 30px;
+	line-height: 50px;
+	position: relative;
+	z-index: 10;
+	transition: color 0.5s;
+}
+
+.social-media a::after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: -80;
+	left: 0;
+	background: black;
+	position: absolute;
+	transition: 0.5s;
+}
+
+.social-media a:hover::after{
+	top: 0;
+
+}
+
+.social-media a:hover .fab{
+	color: #fff;
+}
+
+.social-media a:hover{
+	transform: translateY(-10px);
+}
+
+.about-text h1{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+	position: relative;
+	bottom: 90px;
+	left: 170px;
+}
+
+.services-text h1{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+	position: relative;
+	bottom: 90px;
+	left: 170px;
+}
+
+.skills-text h1{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+	position: relative;
+	bottom: 90px;
+	left: 170px;
+}
+
+.projects-text h1{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+	position: relative;
+	bottom: 90px;
+	left: 170px;
+}
+
+.hire-text h1{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+	position: relative;
+	bottom: 90px;
+	left: 170px;
+}
